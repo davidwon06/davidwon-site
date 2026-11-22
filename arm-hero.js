@@ -80,7 +80,7 @@
     tip.innerHTML = '<span class="k"></span><span class="t"></span><span class="c"></span>';
     var ITEMS = {
       bal: { k: 'Robotics + controls', t: 'Ball-balancing robot', c: 'Click to open project  ↗', href: '/portfolio-1-3-1/ball-balancing-robot' },
-      arm: { k: 'Robotics + embedded', t: '6-DOF robot arm', c: 'Build in progress', href: null }
+      arm: { k: 'Robotics + embedded', t: '6-DOF robot arm', c: 'All 6 joints running, IK next', href: null }
     };
 
     var V = function (a) { return new T.Vector3(a[0], a[1], a[2]); };
